@@ -1,0 +1,31 @@
+{
+  "name": "zesty-react-starter",
+  "version": "1.0.0",
+  "description": "A starter for a zesty API based react app",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grantglidewell/zesty-react-starter.git"
+  },
+  "keywords": [
+    "zesty.io",
+    "zesty",
+    "react"
+  ],
+  "author": "Grant Glidewell <grant.glidewell@zesty.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grantglidewell/zesty-react-starter/issues"
+  },
+  "homepage": "https://github.com/grantglidewell/zesty-react-starter#readme",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.16"
+  }
+}
