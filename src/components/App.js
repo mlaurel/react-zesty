@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
 
+import './App.css'
+
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      apiData: {}
+      apiData: [{}]
     }
   }
   componentDidMount(){
@@ -18,7 +20,7 @@ class App extends Component {
         return res.json()
       })
       .then(data => {
-        this.setState({apiData: data})
+        this.setState({apiData: data.data})
       })
       .catch(err => {
         console.error(err)
@@ -39,11 +41,18 @@ class App extends Component {
   }
   render() {
     return (
-      <React.Fragment>
+      <div className="main">
       <h1>Zesty.io</h1>
       <p>your data returned from the API-</p>
-      <span>{JSON.stringify(this.state.apiData)}</span>
-      </React.Fragment>
+      <div className="articles">
+      {this.state.apiData.reverse().map((article, i) => {
+        return <article key={i}>
+        <h2>{article.title}</h2>
+        <p>{article.article}</p>
+        </article>
+      })}
+      </div>
+      </div>
     )
   }
 }
