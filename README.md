@@ -9,7 +9,8 @@ npm i
 ```
 
 ## Configuration
-```Edit sample.env to reflect your endpoint details
+```
+Edit sample.env to reflect your endpoint details
 ```
 
 ## Usage
