@@ -7,4 +7,5 @@
 .articles {
   display: grid;
   grid-auto-flow: column;
+  padding: 2rem;
 }

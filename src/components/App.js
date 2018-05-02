@@ -42,16 +42,16 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-      <h1>Zesty.io</h1>
-      <p>your data returned from the API-</p>
-      <div className="articles">
-      {this.state.apiData.reverse().map((article, i) => {
-        return <article key={i}>
-        <h2>{article.title}</h2>
-        <p>{article.article}</p>
-        </article>
-      })}
-      </div>
+        <h1>Zesty.io</h1>
+        <p>your data returned from the API-</p>
+        <div className="articles">
+          {this.state.apiData.reverse().map((article, i) => {
+            return <article key={i}>
+            <h2>{article.title}</h2>
+            <p>{article.article}</p>
+            </article>
+          })}
+        </div>
       </div>
     )
   }
