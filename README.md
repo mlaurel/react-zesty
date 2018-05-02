@@ -8,6 +8,10 @@ A started project to get you up and going using headless Zesty with our JSON API
 npm i
 ```
 
+## Configuration
+```Edit sample.env to reflect your endpoint details
+```
+
 ## Usage
 ```shell
 npm run start
