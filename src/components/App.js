@@ -45,11 +45,11 @@ class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <div className="main">
+        <section>
           <AppBar
             title="Zesty.io"
           />
-          <div className="articles">
+          <article className="articles">
             {this.state.apiData.reverse().map((article, i) => {
               return (
                 <Card key={i}>
@@ -63,8 +63,8 @@ class App extends Component {
                 </Card>
               )
             })}
-          </div>
-        </div>
+          </article>
+        </section>
       </MuiThemeProvider>
     )
   }
