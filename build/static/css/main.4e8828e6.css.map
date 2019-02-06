@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/App.css"],"names":[],"mappings":"AAAA,UACE,aACA,sBACA,YAAc","file":"static/css/main.4e8828e6.css","sourcesContent":[".articles {\n  display: grid;\n  grid-auto-flow: column;\n  padding: 2rem;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/components/App.css"],"sourceRoot":""}
